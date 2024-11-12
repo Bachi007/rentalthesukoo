@@ -23,6 +23,7 @@ export class CarsComponent {
 
   openvehicle(id:any){
     console.log(id);
+    console.log("changed")
       this.router.navigateByUrl('/user/view/'+id);
   }
 
