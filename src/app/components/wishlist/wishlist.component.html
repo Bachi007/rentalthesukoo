@@ -1,0 +1,15 @@
+<h1>My wishlist</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Image</th>
+    </tr>
+    <tr *ngFor="let w of vehicles">
+        <td>{{w.vehicleId}}</td>
+        <td>{{w.vehicleName}}</td>
+        <td>{{w.vehiclePrice}}</td>
+        <td><img [src]="w.vehicleImage" alt="" class="img-fluid"></td>
+    </tr>
+</table>

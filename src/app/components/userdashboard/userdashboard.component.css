@@ -1,0 +1,18 @@
+.nav-item{
+    margin-top:50px ;
+}
+.fa{
+    font-size: large;
+    margin-right: 10px;
+    color:white;
+}
+.nav-link{
+    font-size: large;
+    color:white
+}
+nav{
+    height: 680px;
+}
+.myrow{
+    overflow-x: hidden;
+}
